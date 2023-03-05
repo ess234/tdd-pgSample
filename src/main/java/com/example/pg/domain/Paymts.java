@@ -8,7 +8,7 @@ public class Paymts {
     private String paymtType;
     private List<Paymt> paymtList = new ArrayList<>();
 
-    void addPaymt(Paymt paymt){
+    public void addPaymt(Paymt paymt){
         paymtType = "APROV";
 
         totalAmount = totalAmount+paymt.amount();
